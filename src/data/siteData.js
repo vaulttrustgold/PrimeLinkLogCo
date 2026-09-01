@@ -3,14 +3,28 @@
 // Contact details are placeholder/demo values
 
 export const companyInfo = {
-  name: 'Prime Link Logistics Company',
-  shortName: 'Prime Link Logistics Company',
-  tagline: 'Moving Value. Delivering Trust.',
-  email: '',
-  phone: '',
-  officeHours: 'Monday – Friday: 08:00 – 18:00 EAT',
-  year: 2026,
-  serviceRegions: ['Africa', 'Middle East', 'Europe', 'Asia', 'North America'],
+    name: 'Prime Link Logistics Company',
+    shortName: 'Prime Link Logistics Company',
+    tagline: 'Moving Value. Delivering Trust.',
+
+    email: 'mailto:info@primelinklogistics.com',
+    phone: 'tel:+254755316580',
+
+    whatsapp: 'https://wa.me/254755316580',
+
+    location: 'Nairobi, Kenya',
+    mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Nairobi%2C%20Kenya',
+
+    officeHours: 'Monday – Friday: 08:00 – 18:00 EAT',
+    year: 2026,
+
+    serviceRegions: [
+      'Africa',
+      'Middle East',
+      'Europe',
+      'Asia',
+      'North America',
+    ],
 }
 
 export const navLinks = [
@@ -250,6 +264,7 @@ export const footerLinks = {
 export const socialLinks = [
   { name: 'LinkedIn', icon: 'Linkedin', url: '#' },
   { name: 'X', icon: 'Twitter', url: '#' },
-  { name: 'Facebook', icon: 'Facebook', url: '#' },
+  { name: 'Facebook', icon: 'Facebook', url: 'https://web.facebook.com/goldengate.precious' },
   { name: 'Instagram', icon: 'Instagram', url: '#' },
+  {name:'whatsapp', icon:'MessageCircle', url:'https://wa.me/254755316580'}
 ]

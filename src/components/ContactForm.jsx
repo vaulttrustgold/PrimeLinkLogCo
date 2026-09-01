@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Send, CheckCircle } from 'lucide-react'
-import { contactServices } from '../data/siteData'
+import { contactServices , companyInfo} from '../data/siteData'
 import Button from './Button'
 
 const ContactForm = () => {
@@ -144,8 +144,15 @@ const ContactForm = () => {
             value={formData.phone}
             onChange={handleChange}
             className="w-full px-4 py-3 bg-dark-surface border border-white/10 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gold/50 focus:border-gold/30 transition-all"
-            placeholder="+1 (555) 000-0000"
+            placeholder="+254 755 316 580"
           />
+          <a
+              href={companyInfo.phone}
+              className="inline-flex items-center gap-2 mt-2 text-sm text-gray-500 hover:text-gold transition-colors"
+            >
+              <span>Call Prime Link Logistics</span>
+          </a>
+        
         </div>
       </div>
 
